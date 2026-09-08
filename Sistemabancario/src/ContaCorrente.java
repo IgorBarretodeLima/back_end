@@ -19,7 +19,7 @@ public class ContaCorrente extends ContaBancaria {
             return false;
         }
 
-        // O saque pode usar o limite
+    
         if (valor > getSaldo() + limite) {
             System.out.println("Saque recusado. Saldo + limite insuficiente.");
             return false;
